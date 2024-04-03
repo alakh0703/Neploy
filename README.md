@@ -44,6 +44,14 @@ Neploy is a web application that simplifies the deployment of React apps on the 
 - [Behind the Scenes of Vercel's Infrastructure](https://vercel.com/blog/behind-the-scenes-of-vercels-infrastructure)
 - [YouTube: Piyush Garg](https://www.youtube.com/watch?v=0A_JpLYG7hM)
 
+## Visit Neploy
+
+You can visit Neploy at [neploy.netlify.app](https://neploy.netlify.app/).
+
+## Note
+
+Please note that the live logs feature may not work as expected because I used Aiven services (ClickHouse, Kafka) for it, but its free trial has ended.
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
