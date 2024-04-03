@@ -39,15 +39,7 @@ Neploy is a web application that simplifies the deployment of React apps on the 
 5. `get-analytics-backend-flask`
 6. `nextjs-frontend`
 
-## How to Run
 
-1. Clone this repository.
-2. Navigate to the desired backend or frontend directory.
-3. Follow the instructions in the respective README files to set up and run each component.
-
-## Contributing
-
-Contributions are welcome! Please see the [CONTRIBUTING.md](CONTRIBUTING.md) file for guidelines.
 
 ## License
 
