@@ -39,7 +39,10 @@ Neploy is a web application that simplifies the deployment of React apps on the 
 5. `get-analytics-backend-flask`
 6. `nextjs-frontend`
 
+## Resources
 
+- [Behind the Scenes of Vercel's Infrastructure](https://vercel.com/blog/behind-the-scenes-of-vercels-infrastructure)
+- [YouTube: Vercel - The Great Gatsby Web Performance Showdown](https://www.youtube.com/watch?v=0A_JpLYG7hM)
 
 ## License
 
