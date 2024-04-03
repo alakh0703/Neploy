@@ -30,9 +30,11 @@ Neploy is a web application that simplifies the deployment of React apps on the 
 - When a deployment is initiated, the GraphQL backend sends a request to another backend called the API Server (written in TypeScript). This API Server spins up an AWS ECS container using a task definition. The container, containing Node.js code, fetches the code from GitHub, runs `npm run build`, and uploads the resulting code to an S3 bucket.
 - When users visit their deployed project URL, a request is sent to another backend server, which uses a reverse proxy to serve all static files.
 
+
 ## Architecture Diagram
 
 ![Neploy Architecture](architecture_diagram.png)
+
 
 
 ## Project Structure
