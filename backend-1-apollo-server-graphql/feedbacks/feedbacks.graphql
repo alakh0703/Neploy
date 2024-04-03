@@ -1,0 +1,15 @@
+type Query {
+  feedbacks: [Feedback]
+}
+
+type Feedback {
+    feedbackId: ID!,
+    userName: String!,
+    userEmail: String!,
+    issueType: String!,
+    feedbackMessage: String!,
+}
+
+type Mutation {
+    addFeedback(userName: String!, userEmail: String!, issueType: String!, feedbackMessage: String!): Feedback
+}

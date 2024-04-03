@@ -1,0 +1,49 @@
+type Query {
+  projects: [Project]
+getProjectById(pId: ID!): Project
+
+}
+
+
+type Project {
+  pId: ID!,
+  userId: ID!,
+  title: String!,
+  description: String!,
+  git_link: String!,
+  deployed: Boolean!,
+  status: String!,
+  date_created: String!,
+  url: String!,
+  profileUrl: String!,
+  date_latest_deploy: String,
+  builds: [Build]
+
+
+}
+
+type Build {
+  buildId: ID!,
+  projectId: ID!,
+  buildStatus: String!,
+  buildDate: String!,
+  buildLog: String,
+  timeToBuild: String,
+
+}
+
+type Useless {
+   projectSlug: String!,
+   url: String!,
+   buildId: String!,
+
+}
+type Mutation {
+    addNewProject(userId:String!, title: String!, githubLink: String!): Project,
+    getProjectDetails(pId:ID!): Project,
+    deleteProject(pId:ID!): Project,
+    startDeploy(title:String!, pId: String!, git_link: String!, url: String!): Useless,
+    updateProjectName(pId: ID!, title: String!, userId: String!): Project,
+    updateGitHubUrl(pId: ID!, newUrl: String!, userId: String!): Project,
+    updateProjectDescription(pId: ID!, newDescription: String!, userId: String!): Boolean,
+}

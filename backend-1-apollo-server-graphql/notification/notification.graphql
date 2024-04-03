@@ -1,0 +1,18 @@
+type Query {
+    notifications: [Notification]
+
+}
+type Notification {
+    notificationId: ID!,
+    userId: ID!,
+    notificationType: Boolean!,
+    notificationMessage: String!,
+    notificationDate: String!,
+    notificationProjectName: String!,
+}
+
+
+type Mutation {
+    getNotification(userId: ID!): [Notification],
+    setNotificationFalse(userId: ID!): Boolean,
+}

@@ -1,0 +1,11 @@
+.scrollbar-container {
+    background-color: aquamarine;
+    height: 30rem; /* Set the height of the container */
+    overflow-y: auto; /* Allow vertical scrolling */
+    scrollbar-width: none; /* Hide the scrollbar in Firefox */
+    -ms-overflow-style: none; /* Hide the scrollbar in Internet Explorer and Edge */
+}
+
+.scrollbar-container::-webkit-scrollbar {
+    display: none; 
+}

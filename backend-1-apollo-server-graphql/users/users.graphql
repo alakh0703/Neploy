@@ -1,0 +1,39 @@
+type Query {
+  users: [User]
+}
+type User {
+  userId: String!,
+  username: String!,
+  display_name: String!,
+  email: String!,
+  git_username: String,
+  git_url: String,
+  linkedin_url: String,
+  personal_website: String,
+  projects: [Project],
+  notification: Boolean
+}
+type Project {
+  pId: ID!,
+  title: String!,
+  description: String!,
+  url: String!,
+  git_link: String!,
+  deployed: Boolean!,
+  date_created: String!,
+  profileUrl: String!
+}
+
+
+# mutations
+
+type Mutation {
+    registerNewUser(userId: String!,display_name:String!, email: String!, git_username: String): User,
+    updateGithubInfo(userId: String!, git_username: String!, git_profile_url: String!): Boolean,
+    updateLinkedInUrl(userId: String!, linkedin_url: String!): Boolean,
+    updatePersonalWebsite(userId: String!, personal_website: String!): Boolean,
+    getUserById(email: String!): User,
+    deleteUserById(userId: String!): Boolean,
+
+    
+}
