@@ -9,6 +9,8 @@ Neploy is a web application that simplifies the deployment of React apps on the 
 - Shadcn
 - Aceternity
 - Framer Motion
+- Zustand
+- Zod 
 - Node.js
 - Express.js
 - GraphQL
