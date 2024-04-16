@@ -58,7 +58,7 @@ Check out the mini-documentation: [documentation](https://midi-hip-43b.notion.si
 
 ## Visit Neploy
 
-You can visit Neploy at [neploy.netlify.app](https://neploy.netlify.app/).
+You can visit Neploy at [neploy.netlify.app](https://neploy.netlify.app/)
 
 ## Note
 
