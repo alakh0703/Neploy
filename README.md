@@ -2,6 +2,9 @@
 
 Neploy is a web application that simplifies the deployment of React apps on the web. Users can create accounts, add projects using GitHub links, initiate deployments, manage project details, view live deployment logs, access website analytics (e.g., daily visitor count displayed as a line graph), manage user profiles, change avatars, delete projects, delete users, and more.
 
+Check out the mini-documentation: [documentation](https://midi-hip-43b.notion.site/NEPLOY-94de10026c554950a91a7783d521a4c2).
+
+
 ## Technologies Used
 
 - Next.js
